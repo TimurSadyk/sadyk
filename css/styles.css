@@ -3173,6 +3173,7 @@ img.u-pull-left {
     background-repeat   : no-repeat;
     background-position : center 30%;
     background-size     : cover;
+    background-attachment: fixed;
 }
 
 .s-intro__bg::before {
