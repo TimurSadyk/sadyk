@@ -3685,13 +3685,16 @@ img.u-pull-left {
 /* ------------------------------------------------------------------- 
  * ## portfolio list
  * ------------------------------------------------------------------- */
+
+
+
 .folio-list {
     margin-top : calc(var(--vspace-1) * -5.5);
 }
 
 .folio-list .brick {
     float   : left;
-    width   : 50%;
+    width   : 20%;
     padding : 0;
     margin  : 0;
 }
@@ -3976,7 +3979,7 @@ img.u-pull-left {
 @media screen and (max-width: 700px) {
     .folio-list .brick {
         float : none;
-        width : auto;
+        width : 50%;
     }
 
     .folio-item__title {
